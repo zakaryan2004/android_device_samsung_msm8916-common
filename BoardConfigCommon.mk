@@ -258,6 +258,7 @@ endif
 # SELinux
 include device/qcom/sepolicy-legacy/sepolicy.mk
 
+SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_SEPOLICY_DIRS += \
     $(BOARD_CONFIG_PATH)/sepolicy
 
