@@ -83,8 +83,7 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 # CMHW
 #BOARD_USES_CYANOGEN_HARDWARE := true
 JAVA_SOURCE_OVERLAYS += \
-	org.lineageos.hardware|hardware/samsung/lineagehw|**/*.java \
-	org.lineageos.hardware|$(BOARD_CONFIG_PATH)/lineagehw|**/*.java
+	org.lineageos.hardware|hardware/samsung/lineagehw|**/DisplayColorCalibration.java
 
 # Display
 TARGET_FORCE_HWC_FOR_VIRTUAL_DISPLAYS := true
